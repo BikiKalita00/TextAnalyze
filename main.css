@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+
+#text{
+  height: 140px;
+  width: 90%;
+  position: relative;
+  left: 20px;
+  top: 10px;
+  border-radius: 5px;
+  border: 2px solid #000000;
+}
+#liveAlertBtn{
+  position: relative;
+  align-items: center;
+  left: 45%;
+  top: 12px;
+}
+h2{
+  position: relative;
+  top: 20px;
+  left: 15px;
+  
+}
+
+.lengthsspace{
+  color: #000;
+  top: 20px;
+  position: relative;
+  left: 10px;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+}
+.bt{
+  width: 100px;
+  position: relative;
+  margin-left: -1px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bt:hover{
+  color: #fff;
+background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+.bt:focus {
+    outline: none;
+}
